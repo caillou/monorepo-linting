@@ -1,12 +1,20 @@
 # `@caillou/eslint-config`
 
-Usage
+## Usage
+
+Install peer-depenedencies:
+
+```
+npm install --save-dev prettier
+```
+
+Install this package:
 
 ```
 npm install --save-dev @caillou/prettier-config
 ```
 
-And add the following to your `package.json`:
+Add the following to your `package.json`:
 
 ```JSON
 {

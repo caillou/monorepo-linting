@@ -1,0 +1,17 @@
+{
+  "name": "@caillou/prettier-config",
+  "version": "1.0.0",
+  "main": ".prettierrc.js",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@caillou/eslint-config": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@caillou/eslint-config"
+    ]
+  }
+}

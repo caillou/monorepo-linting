@@ -1,0 +1,20 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "This repo is a playground to figure out how to set up linting in a Monorepo.",
+  "main": "index.js",
+  "devDependencies": {},
+  "workspaces": [
+    "./packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caillou/monorepo-linting-playground.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caillou/monorepo-linting-playground/issues"
+  },
+  "homepage": "https://github.com/caillou/monorepo-linting-playground#readme"
+}

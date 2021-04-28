@@ -5,13 +5,13 @@
 Install peer-depenedencies:
 
 ```
-npm install --save-dev typescript
+yarn add --dev typescript
 ```
 
 Install this package:
 
 ```
-npm install --save-dev @caillou/tsconfig
+yarn add --dev @caillou/tsconfig
 ```
 
 Add the following to your `tsconfig.json`:

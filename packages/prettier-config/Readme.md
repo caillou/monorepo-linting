@@ -5,13 +5,13 @@
 Install peer-depenedencies:
 
 ```
-npm install --save-dev prettier
+yarn add --dev prettier
 ```
 
 Install this package:
 
 ```
-npm install --save-dev @caillou/prettier-config
+yarn add --dev @caillou/prettier-config
 ```
 
 Add the following to your `package.json`:

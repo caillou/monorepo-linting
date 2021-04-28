@@ -5,7 +5,7 @@ This repo is a playground to figure out how to set up linting in a Monorepo.
 ## Usage
 
 ```
-npm install
+yarn install
 ```
 
 ## Packages

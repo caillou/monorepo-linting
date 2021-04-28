@@ -7,7 +7,7 @@ This is a sharable config file within a monorepo, c.f. [ESLint Shareable Configs
 Install peer-depenedencies:
 
 ```
-npm install --save-dev \
+yarn add --dev \
   @typescript-eslint/eslint-plugin \
   eslint \
   eslint-plugin-import \
@@ -17,7 +17,7 @@ npm install --save-dev \
 Install this package:
 
 ```
-npm install --save-dev @caillou/eslint-config
+yarn add --dev @caillou/eslint-config
 ```
 
 Add the following to your `package.json`:

@@ -5,7 +5,7 @@
 Install peer-depenedencies:
 
 ```
-yarn add --dev typescript
+yarn add --dev typescript @typescript-eslint/parser
 ```
 
 Install this package:

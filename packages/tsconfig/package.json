@@ -1,0 +1,15 @@
+{
+  "name": "@caillou/tsconfig",
+  "version": "1.0.0",
+  "main": "tsconfig.json",
+  "author": "pierre.spring@caillou.ch",
+  "license": "MIT",
+  "devDependencies": {
+    "@caillou/prettier-config": "^1.0.0",
+    "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "typescript": ">= 4.2.4"
+  },
+  "prettier": "@caillou/prettier-config"
+}

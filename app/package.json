@@ -1,0 +1,8 @@
+{
+  "name": "monorepo-linting-playground-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pierre.spring@caillou.ch",
+  "license": "MIT",
+  "private": true
+}

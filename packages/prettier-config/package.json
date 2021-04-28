@@ -2,6 +2,7 @@
   "name": "@caillou/prettier-config",
   "version": "1.0.0",
   "main": ".prettierrc.js",
+  "author": "pierre.spring@caillou.ch",
   "license": "MIT",
   "keywords": [
     "prettier"

@@ -12,3 +12,4 @@ npm install
 
 - [`@caillou/prettier-config`](packages/prettier-config/)
 - [`@caillou/eslint-config`](packages/eslint-config/)
+- [`@caillou/tsconfig`](packages/tsconfig/)

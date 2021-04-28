@@ -2,6 +2,7 @@
   "name": "@caillou/eslint-config",
   "version": "1.0.0",
   "main": ".eslintrc.js",
+  "author": "pierre.spring@caillou.ch",
   "license": "MIT",
   "prettier": "@caillou/prettier-config",
   "keywords": [

@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "This repo is a playground to figure out how to set up linting in a Monorepo.",
   "main": "index.js",
-  "workspaces": [
-    "packages/*",
-    "app"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "app"
+    ],
+    "nohoist": [
+      "**/*"
+    ]
+  },
   "scripts": {
     "preinstall": "node -e 'if(!/yarn\\.js$/.test(process.env.npm_execpath))throw new Error(\"Use yarn\")'"
   },
@@ -24,5 +29,6 @@
   "devDependencies": {
     "@caillou/prettier-config": "^1.0.0",
     "prettier": "^2.2.1"
-  }
+  },
+  "prettier": "@caillou/prettier-config"
 }

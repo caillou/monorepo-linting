@@ -1,0 +1,4 @@
+{
+  "eslint.workingDirectories": ["app", "packages/*"],
+  "prettier.requireConfig": true
+}

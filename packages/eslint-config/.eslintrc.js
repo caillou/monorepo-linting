@@ -17,7 +17,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         // c.f. https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/MONOREPO.md
-        project: ['*/tsconfig.json', 'packages/*/tsconfig.json'],
+        project: ['./tsconfig.json'],
       },
       plugins: ['@typescript-eslint'],
       extends: [

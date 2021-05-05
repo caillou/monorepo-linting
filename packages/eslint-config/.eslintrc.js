@@ -1,3 +1,7 @@
+function x() {
+  console.log(hoi);
+}
+
 module.exports = {
   root: true,
   env: {
@@ -24,7 +28,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'prettier',
+        // 'prettier',
         'plugin:prettier/recommended',
       ],
       rules: {
